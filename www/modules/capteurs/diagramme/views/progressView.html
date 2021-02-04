@@ -1,0 +1,111 @@
+<style type="text/css">
+    .fas {
+        padding: 5%;
+        border-radius: 50px;
+        font-size: 185%;
+    }
+
+    small {
+        color: #fff;
+    }
+
+    .stop img {
+        opacity: 0.3
+    }
+
+    }
+
+    .start img {
+        opacity: 1
+    }
+    }
+</style>
+
+
+
+<div class="container" ng-init="regelung()">
+    <div class="slide">
+        <div class="content" style="height: 120%!important;">
+            <div class="mask-red"></div>
+            <div class="slider-caption">
+                <td><img src="images/htwBerlin.png" style="width: 100px!important; height: 43px!important;"></td>
+                <h2>Regelung</h2><p>
+                    <div class="counter segments" style="border-radius: 10px; background: #3f8ab58a!important;">
+                        <div class="row">
+                            <div class="col s4">
+                                <a href="#/menu" data-activates="slide-out" class="sidebar"><i class="fas fa-bars" style="font-size: 50px!important; color: #ffffff!important;"></i></a>
+                            </div>
+                            <div class="col s4">
+                                <div class="container">
+                                    <div class="row">
+                                        <h4 style="color: #fff;">Wetter</h4>
+                                        &
+                                        <h4 style="color: #fff;">Standort</h4>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s4">
+                                <i class="fas fa-bell " style="color: #fff; font-size: 40px;"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="counter segments" style="border-radius: 10px; background: #05050521!important" ;>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col s12">
+                                    <div class="container">
+                                        <form action="" method="">
+                                            <div class="row" style="padding: 0!important;">
+                                                <div class="col s12 col m4">
+
+                                                    <div class="row">
+                                                        <div class="col s12">
+                                                            <div id="thermo1" class="thermometer">
+                                                                <div class="track">
+                                                                    <div class="goal">
+                                                                        <div class="amount">  </div>
+                                                                    </div>
+                                                                    <div class="progress">
+                                                                        <div class="amount">0</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="col s12 col m6" style="float:right!important">
+
+                                                    <div class="row">
+                                                        <div class="col s12">
+                                                            <span class="stop" id="pompe">
+                                                                <img src="images/pompe.jpg" alt="" style="width: 50px;">
+                                                            </span>
+                                                        </div>
+                                                        <div class="col s12">
+                                                            <button class="button" ng-click="utilitaire.loadPage('')" style="">Abmeldung</button>
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div class="col s12 col m6">
+
+
+
+                                                    </div>
+
+
+                                                </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>

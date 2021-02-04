@@ -1,0 +1,20 @@
+﻿@charset "UTF-8";
+
+body {
+    background-image: url(../bilder/hintergrund.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #632d2d;
+}
+
+h1 {
+    font-size: 20px;
+    color: #9c1e1e;
+}
+
+
+footer {
+    box-shadow: 2px 5px 10px #ca3f26;
+    text-align: center;
+}
+}

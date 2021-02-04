@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html lang="zxx"  ng-app="sampleApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="images/favicon.png">
+    <title>Konzept zur WebAnwendungen</title>
+
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/loader.css">
+    <link rel="stylesheet" href="css/menustyle.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="css/chartist.min.css">
+    <link rel="alternate stylesheet" type="text/css" href="css/style-dark.css" title="dark-mode" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" title="default" />
+
+    <link rel="stylesheet" href="pikop/css/thermometer.css">
+    <link rel="stylesheet" href="pikop/css/thermometer2.css">
+    <link rel="stylesheet" href="pikop/css/thermometer3.css">
+    <!-- core CSS -->
+
+
+
+</head>
+<style>
+    @media screen and (min-width: 960px){
+        body{
+            width: 100%!important;
+            padding: 0 18%!important;
+        }
+
+
+    }
+    input[type="text"], input[type="password"] {
+        color: #000000!important;
+    }
+
+
+
+
+</style>
+<body>
+
+    <!-- preloader -->
+    <div class="loader-wrapper">
+        <div class="loader-cube"></div>
+    </div>
+    <!-- end preloader -->
+    <!-- navbar -->
+    <header-accueil></header-accueil>
+    <!-- end navbar -->
+    <!-- slider -->
+    <ng-view></ng-view>
+    <!-- end slider -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/styleswitcher.js"></script>
+    <script src="js/chartist.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/Chart.js"></script>
+
+    <script type="text/javascript" src="angular/angular.min.js"></script>
+    <script type="text/javascript" src="angular/app.js"></script>
+    <script type="text/javascript" src="angular/angular-route.min.js"></script>
+
+    <script type="text/javascript" src="angular/route/route.js"></script>
+
+    <script type="text/javascript" src="angular/services/loader.js"></script>
+    <script type="text/javascript" src="angular/services/utilitaire.js"></script>
+    <script type="text/javascript" src="angular/services/fileReader.js"></script>
+
+    <script src="angular/directives/directive.js"></script>
+    <!-- accueil controllers -->
+    <script type="text/javascript" src="modules/accueil/home/controllers/welcomeCtrl.js"></script>
+
+    <script type="text/javascript" src="modules/actionneur/controle/controllers/actionneurCtrl.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="modules/capteurs/diagramme/controllers/diagrammeCtrl.js"></script>
+    <script type="text/javascript" src="http://get.influxdb.org/influxdb-latest.js"></script>
+    <script type="text/javascript " src="//cdnjs.cloudflare.com/ajax/libs/dygraph/1.1.1/dygraph-combined.js"></script>
+
+    <script src="pikop/js/thermometer.js"></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js'></script>
+    <script src="pikop/js/index.js"></script>
+    <script src="pikop/js/tether.min.js"></script>
+    <script src="pikop/js/bootstrap.min.js"></script>
+    <script src="pikop/js/app.js"></script>
+    <script src="pikop/js/industrial.js"></script>
+    <script src="pikop/js/html5-canvas-bar-graph.js"></script>
+    <script type="pikop/text/javascript"></script>
+
+
+
+    <!--      <script type="text/javascript" src="modules/accueil/home/controllers/paiementCtrl.js"></script>-->
+    <!--      <script type="text/javascript" src="modules/accueil/home/controllers/productCtrl.js"></script>-->
+
+</body>
+</html>
+

@@ -1,0 +1,480 @@
+
+/*************************
+*******Main******
+**************************/
+
+.div-gauche{
+    background-color:  red;
+    /* margin-top: 20px; */
+    padding-top: 10px;
+    height: 90%;
+}
+
+.div-gauches{
+    background-color: #1e24f6;
+    /* margin-top: 20px; */
+    padding-top: 10px;
+    height: 89%;
+}
+
+.div-droite{
+    background-color: black;
+    margin-bottom:  20px;
+    padding-bottom:  25px;
+    height: 252px;
+}
+
+.globals{
+    background: #6ba1f6;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    border-radius: 30px;
+    height: 637px;
+    margin-top: 10px;
+}
+
+
+.head-left{
+    background-color: red;
+    color: white;
+    width: 163px;
+    margin-left: 22px;
+    margin-right: 0%;
+    text-align:  center;
+    border-radius:  20px;
+    margin-bottom: 20px;
+}
+
+.haus{
+    /* background-color: white; */
+    margin-top: 27px;
+    color:  white;
+}
+
+.hauss{
+    background-color: white;
+    margin-top: 70px;
+}
+
+.big-div-droite{
+    margin-top: 1px;
+}
+
+.haus-text{
+
+    text-align: center;
+    color: white;
+}
+
+.haus-input{
+
+    margin-bottom: 8px;
+    margin-left: -37px;
+    margin-right: -22px;
+}
+.haus-group{
+}
+
+.haus-group input{
+    margin-bottom: 10px;
+}
+
+.Pumpe .btn{margin-top: 15px;margin-left: 14px;width: 86%;background-color: #2f2e2e;color:  white;}
+
+.WaMaSys{color: #287ff3;text-align:  center;margin-top: 5px;margin-bottom: 5px;}
+
+.btn-jaune{background-color: #f9dd0a;color:  black;width: 100%;}
+
+.Jahresverbrauch{text-align:  center;margin-top: -35px;}
+
+.SYSTEMVERWALTUNG{text-align:  center;color:  white;}
+
+.div-an-aus{
+
+}
+/*************************
+******* Temperature ******
+**************************/
+
+#thermometer .goal {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#thermometer .amount {
+    border-top: 1px solid #006600;
+    color: black;
+    display: inline-block;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    padding: 0 75px 0 0;
+}
+#thermometer .progress .amount {
+    border-top: 1px solid #006600;
+    color: #006600;
+    left: 0;
+    padding: 0 0 0 75px;
+    position: absolute;
+}
+#thermometer {
+    border-radius: 12px;
+    height: 300px;
+    margin-top:140px;
+    position: relative;
+}
+#thermometer .track {
+    background: #e5e5e5 none repeat scroll 0 0;
+    border-radius: 8px;
+    height: 280px;
+    left: 10px;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+    width: 30px;
+}
+#thermometer .progress {
+    background: green none repeat scroll 0 0;
+    border-radius: 23px 23px 0 0;
+    bottom: 0;
+    height: 0;
+    left: 5px;
+    margin-bottom: 0 !important;
+    position: absolute;
+    width: 69%;
+    z-index: 100;
+}
+#thermometer .goal {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#thermometer .amount {
+    border-top: 1px solid #006600;
+    color: black;
+    display: inline-block;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    padding: 0 75px 0 0;
+}
+#thermometer .progress .amount {
+    border-top: 1px solid #006600;
+    color: #006600;
+    left: 0;
+    padding: 0 0 0 75px;
+    position: absolute;
+}
+.bulb {
+    background: #e5e5e5 none repeat scroll 0 0;
+    border-radius: 50%;
+    bottom: -42px;
+    display: block;
+    height: 40px;
+    left: -14px;
+    padding: 10px;
+    position: absolute;
+    width: 43px;
+}
+.inner-bulb {
+    background-color: green;
+    border-radius: 50%;
+    height: 40px;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 40px;
+}
+
+.div-chart{
+}
+
+.aus{
+}
+
+.WaMaSyss{color: #080808;font-size: 18px;text-align:  center;margin-top: 5px;margin-bottom: 5px;}
+
+.Meteo{background-color:  white;height: 251px;margin-bottom: 66px;}
+.Meteos{background-color:  white;height: 251px;margin-top: 147px;}
+.Meteoss{
+    background-color:  white;
+    height: 251px;
+    margin-top: 12px;
+    margin-bottom: 38px;
+}
+
+.big-button{
+    margin-top: 70px;
+    margin-left: 150px;
+}
+
+.haus-group{
+
+}
+/*************************
+*******Main******
+**************************/
+
+.div-gauche{
+    background-color:  red;
+    /* margin-top: 20px; */
+    padding-top: 10px;
+    height: 90%;
+}
+
+.div-gauches{
+    background-color: #1e24f6;
+    /* margin-top: 20px; */
+    padding-top: 10px;
+    height: 89%;
+}
+
+.div-droite{
+    background-color: black;
+    margin-bottom:  20px;
+    padding-bottom:  25px;
+    height: 252px;
+}
+
+.globals{
+    background: #6ba1f6;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    border-radius: 30px;
+    height: 637px;
+    margin-top: 10px;
+}
+
+.global {
+    background: linear-gradient(to right, #4caf50 100%, #FFFFFF 30%, #4caf50 100% );
+    padding: 2%;
+    border-radius: 51px;
+    height: 96%;
+    margin: 1%;
+}
+
+.head-rigth{
+    background-color: red;
+    color: white;
+    width: 110%;
+    margin-left: -17px;
+    margin-right: 0;
+    text-align:  center;
+    border-radius:  20px;
+    margin-bottom: 21px;
+}
+
+.head-left{
+    background-color: red;
+    color: white;
+    width: 163px;
+    margin-left: 22px;
+    margin-right: 0%;
+    text-align:  center;
+    border-radius:  20px;
+    margin-bottom: 20px;
+}
+
+.haus{
+    /* background-color: white; */
+    margin-top: 27px;
+    color:  white;
+}
+.div-input{
+    margin-right: -15px;
+    margin-left: 5px;
+}
+.hauss{
+    background-color: white;
+    margin-top: 70px;
+}
+
+.big-div-droite{
+    margin-top: 1px;
+    padding-left: 63px;
+}
+
+.haus-group{
+    padding-right: 21px;
+}
+
+.haus-group input{
+    margin-bottom: 10px;
+}
+
+.Pumpe .btn{margin-top: 15px;margin-left: 14px;width: 86%;background-color: #2f2e2e;color:  white;}
+
+.WaMaSys{color: #287ff3;text-align:  center;margin-top: 5px;margin-bottom: 5px;}
+
+.btn-jaune{background-color: #f9dd0a;color:  black;width: 100%;}
+
+.Jahresverbrauch{text-align:  center;margin-top: -35px;}
+
+.SYSTEMVERWALTUNG{text-align:  center;color:  white;}
+
+.div-an-aus{
+
+}
+/*************************
+******* Temperature ******
+**************************/
+
+#thermometer .goal {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#thermometer .amount {
+    border-top: 1px solid #006600;
+    color: black;
+    display: inline-block;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    padding: 0 75px 0 0;
+}
+#thermometer .progress .amount {
+    border-top: 1px solid #006600;
+    color: #006600;
+    left: 0;
+    padding: 0 0 0 75px;
+    position: absolute;
+}
+#thermometer {
+    border-radius: 12px;
+    height: 300px;
+    margin-top:140px;
+    position: relative;
+}
+#thermometer .track {
+    background: #e5e5e5 none repeat scroll 0 0;
+    border-radius: 8px;
+    height: 280px;
+    left: 10px;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+    width: 30px;
+}
+#thermometer .progress {
+    background: green none repeat scroll 0 0;
+    border-radius: 23px 23px 0 0;
+    bottom: 0;
+    height: 0;
+    left: 5px;
+    margin-bottom: 0 !important;
+    position: absolute;
+    width: 69%;
+    z-index: 100;
+}
+#thermometer .goal {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#thermometer .amount {
+    border-top: 1px solid #006600;
+    color: black;
+    display: inline-block;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    padding: 0 75px 0 0;
+}
+#thermometer .progress .amount {
+    border-top: 1px solid #006600;
+    color: #006600;
+    left: 0;
+    padding: 0 0 0 75px;
+    position: absolute;
+}
+.bulb {
+    background: #e5e5e5 none repeat scroll 0 0;
+    border-radius: 50%;
+    bottom: -42px;
+    display: block;
+    height: 40px;
+    left: -14px;
+    padding: 10px;
+    position: absolute;
+    width: 43px;
+}
+.inner-bulb {
+    background-color: green;
+    border-radius: 50%;
+    height: 40px;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 40px;
+}
+
+.div-chart{
+}
+
+.aus{
+}
+
+.WaMaSyss{color: #080808;font-size: 18px;text-align:  center;margin-top: 5px;margin-bottom: 5px;}
+
+.Meteo{background-color:  white;height: 251px;margin-bottom: 66px;}
+.Meteos{background-color:  white;height: 251px;margin-top: 147px;}
+.Meteoss{
+    background-color:  white;
+    height: 251px;
+    margin-top: 12px;
+    margin-bottom: 38px;
+}
+
+.big-button{
+    margin-top: 70px;
+    margin-left: 150px;
+}
+
+
+.div-gauche-gauche{margin-right: 30px;margin-left: 14px;text-align:  center;}
+
+.image11{background-color:  white;padding-top: 9px;padding-right:  9px;padding-bottom: 9px;padding-left: 20px;}
+.image112{padding-top: 9px;padding-right: 9px;padding-bottom: 9px;padding-left: 0px;}
+
+.image112 img{height: 153px;padding-left: 0px;}
+.image11 img{height: 173px;padding-left: 0px;}
+/*************************
+******* Chart ******
+**************************/
+
+#caption{
+    margin-left: 25px;
+}
+/*************************
+******* meteo ******
+**************************/
+
+
+
+.div-gauche-gauche{margin-right: 48px;margin-left: 2px;text-align:  center;}
+
+.image11{background-color:  white;padding-top: 9px;padding-right:  9px;padding-bottom: 9px;padding-left: 20px;}
+.image112{padding-top: 9px;padding-right: 9px;padding-bottom: 9px;padding-left: 0px;}
+
+.image112 img{height: 153px;padding-left: 0px;}
+.image11 img{height: 173px;padding-left: 0px;}
+/*************************
+******* Chart ******
+**************************/
+
+#caption{
+    margin-left: 25px;
+}
+/*************************
+******* meteo ******
+**************************/
+
+.meteoo{
+    margin-bottom: 132px;
+}
+
+
+.maintank{
+
+    margin-top: 11px;
+    margin-left: 18px;
+}

@@ -1,0 +1,113 @@
+<style type="text/css">
+    .fas {
+        padding: 5%;
+        border-radius: 50px;
+        font-size: 185%;
+    }
+
+    small {
+        color: #fff;
+    }
+
+    .right-indicator .row {
+        margin-bottom: 10px;
+    }
+</style>
+<div class="container">
+    <div class="slide">
+        <div class="content" style="height: 180%!important;">
+            <div class="mask-red" style="min-height: 110%;"></div>
+            <img src="images/" alt="">
+            <div class="slider-caption">
+
+                <td><img src="images/htwBerlin.png" style="width: 100px!important; height: 43px!important;"></td>
+                <h2>Sensoren</h2><p>
+                    <div class="counter segments" style="border-radius: 10px; background: rgba(39, 58, 57, 0.2)!important">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col s3">
+                                    <a href="#/menu" data-activates="slide-out" class="sidebar"><i class="fas fa-bars" style="font-size: 50px!important; color: #ffffff!important;"></i></a>
+                                </div>
+
+                                <div class="col s6">
+                                    <h6 style="color: #fff;">Weather</h6>
+                                    &
+                                    <h6 style="color: #fff;">Localisation</h6>
+                                </div>
+                                <div class="col s3">
+                                    <i class="fas fa-bell " style="color: #fff; font-size: 40px;"></i>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="counter segments" style="border-radius: 10px; background: #05050521!important; margin-top: 10px;">
+                        <div class="container">
+
+                            <div class="row">
+
+                                <div class="col s4">
+
+                                    <img src="images/feucht.PNG" alt="" style="width: 27px;height : 59px; margin-top: -29px; margin-left: 12px;">
+
+                                </div>
+                                <div class="col s4">
+                                    <img src="images/temperature.png" alt="" style="width: 23px; height: 57px; margin-top: -29px; margin-left: 17px;">
+                                </div>
+                                <div class="col s4" style="text-align: center;">
+                                    <img src="images/abstand.PNG" alt="" style="width: 28px; height: 65px; margin-top: -32px; margin-left: 7px; ">
+                                </div>
+
+                            </div>
+                            <div class="row">
+
+                                <div class="col s4">
+
+                                    <input class="fas fa-input" type="text" ng-model="humidite" id="tasHumSensor" value="34%" style="width: 35px!important; height: 41px!important; border-radius: 38px!important; text-align: center;" readonly="readonly">
+                                    <small>%</small>
+
+                                </div>
+                                <div class="col s4">
+                                    <input class="fas fa-input" type="text" ng-model="temperature" id="tasTempSensor" value="34℃" style="width: 35px!important; height: 41px!important; border-radius: 38px!important; text-align: center; margin-left: 1px;" readonly="readonly">
+                                    <small>°</small>
+
+                                </div>
+                                <div class="col s4" style="text-align: center;">
+                                    <input class="fas fa-input" type="text" id="tasAltSensor" ng-model="altitude" value="34cm" style="width: 35px!important; height: 41px!important; border-radius: 38px!important; text-align: center; margin-left: -4px;" readonly="readonly">
+                                    <small>Cm</small>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col s12 col m4">
+                                    <button class="button" ng-click="historyparam('')" ng-model="Influxdata" data-toggle="modal" data-target="#exampleModalButton" style="width: 88px;">Verlauf</button>
+                                </div>
+                                <div class="col s12 col m4">
+                                    <button class="button" ng-click="utilitaire.loadPage('#/set-level')">Regelung</button>
+                                </div>
+                                <div class="col s12 col m4">
+                                    <button class="button" ng-click="recordparam('')" ng-model="Influxdata" style="width: 88px;">Messungen</button>
+                                </div>
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col s12" style="padding: 0!important;">
+                                    <canvas id="myChart" style=" width: 100%; display: block; height: 187px; background: palegoldenrod; margin-top: 12px;"></canvas>
+
+                                    <button class="button" ng-click="utilitaire.loadPage('')">
+                                        Abmelden
+                                    </button>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+            </div>
+    </div>
+</div>
+</div>

@@ -1,0 +1,95 @@
+<style type="text/css">
+    .fas {
+        padding: 5%;
+        border-radius: 50px;
+        font-size: 185%;
+    }
+
+    small {
+        color: #fff;
+    }
+
+    .stop img {
+        opacity: 0.3
+    }
+
+    }
+
+    .start img {
+        opacity: 1
+    }
+    }
+</style>
+<div class="container">
+    <div class="slide">
+        <div class="content" style="height: 120%!important;">>
+            <div class="mask-red" style="min-height: 110%;"></div>
+            <img src="images/" alt="">
+            <div class="slider-caption">
+                <td><img src="images/htwBerlin.png" style="width: 100px!important; height: 43px!important;"></td>
+                <h2>Steuerung</h2><p>
+                    <div class="counter segments" style="border-radius: 10px; background: #3f8ab58a!important;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col s3">
+
+                                    <a href="#/menu" data-activates="slide-out" class="sidebar"><i class="fas fa-bars" style="font-size: 50px!important; color: #ffffff!important;"></i></a>
+                                </div>
+                                <div class="col s6">
+                                    <h6 style="color: #fff;">Wetter</h6>
+                                    &
+                                    <h6 style="color: #fff;">Standort</h6>
+                                </div>
+                                <div class="col s3">
+                                    <i class="fas fa-bell " style="color: #fff; font-size: 40px;"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="counter segments" style="border-radius: 10px; background: #05050521!important; margin-top: 10px;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col s3">
+                                    <span ng-class="outils.lampe=='0' ? 'stop' : 'start' " id="lampe">
+                                        <img src="images/light.png" alt="">
+                                    </span>
+                                    <i class="fas fa-power-off bg-green" ng-click="start('lampe')"></i> <i class="fas fa-power-off bg-red" ng-click="stop('lampe')"></i>
+                <p><small>Lampe</small></p>
+            </div>
+                                <div class="col s3">
+                                    <span ng-class="outils.moteur=='0' ? 'stop' : 'start' " id="moteur">
+                                        <img src="images/moteur.png" alt="">
+                                    </span>
+                                    <i class="fas fa-power-off bg-green" ng-click="start('moteur')"></i> <i class="fas fa-power-off bg-red" ng-click="stop('moteur')"></i>
+                                    <p><small>Motor</small></p>
+                                </div>
+                                <div class="col s3" style="text-align: center;">
+                                    <span ng-class="outils.ventilateur=='0' ? 'stop' : 'start' " id="ventilateur">
+                                        <img src="images/ventilo.png" alt="">
+                                    </span>
+                                    <i class="fas fa-power-off bg-green" ng-click="start('ventilateur')"></i> <i class="fas fa-power-off bg-red" ng-click="stop('ventilateur')"></i>
+                                    <p><small>Ventil</small></p>
+                                </div>
+                                <div class="col s3">
+                                    <span ng-class="outils.pompe=='0' ? 'stop' : 'start' " id="pompe">
+                                        <img src="images/pompe.jpg" alt="">
+                                    </span>
+                                    <i class="fas fa-power-off bg-green" ng-click="start('pompe')"></i> <i class="fas fa-power-off bg-red" ng-click="stop('pompe')"></i>
+                                    <p><small>Pumpe</small></p>
+                                </div>
+                                <div class="row">
+                <div class="col s6" style="padding: 0!important;">
+
+                    <button class="button"  ng-click="utilitaire.loadPage('')">
+                        Abmelden
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+                    </div>
+                </div>
+        </div>
+    </div>
